@@ -1,0 +1,25 @@
+{
+  "source": ["output.json"],
+  "transforms": [
+    "attribute/cti",
+    "name/cti/kebab",
+    "time/seconds",
+    "content/icon",
+    "color/css",
+    "size/rem",
+    "font/size",
+    "box-shadow/css"
+  ],
+  "platforms": {
+    "css": {
+      "transformGroup": "custom/css",
+      "buildPath": "src/styles/",
+      "files": [
+        {
+          "destination": "tokens.css",
+          "format": "css/variables"
+        }
+      ]
+    }
+  }
+}

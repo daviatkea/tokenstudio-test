@@ -1,5 +1,5 @@
 {
-  "name": "",
+  "name": "tokens-test",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
@@ -7,9 +7,12 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "tokens": "token-transformer tokens.json output.json && node --experimental-specifier-resolution=node build.js"
   },
   "dependencies": {
-    "astro": "^2.3.0"
+    "astro": "^2.3.0",
+    "style-dictionary": "^3.7.2",
+    "token-transformer": "^0.0.32"
   }
 }

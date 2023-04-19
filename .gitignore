@@ -4,6 +4,8 @@ dist/
 # generated types
 .astro/
 
+build/
+
 # dependencies
 node_modules/
 
